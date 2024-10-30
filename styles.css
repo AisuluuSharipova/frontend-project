@@ -23,3 +23,47 @@
   border-bottom: 1px solid #ccc;
   font-weight: bold;  
 }  
+
+.calendar th, .calendar td {  
+  width: 14.28%;  
+  height: 40px;  
+  text-align: center;  
+  vertical-align: middle;  
+}  
+
+.calendar th {  
+  color: #888;  
+  font-weight: 500;  
+}  
+
+.calendar td {  
+  color: #333;  
+}  
+
+.today {  
+  background-color: rgb(216, 101, 13);  
+  border-radius: 50%;  
+  color: white !important;
+  width: 30px !important;
+  height: 30px !important;
+}  
+
+.highlight {  
+  position: relative;  
+}  
+
+.outer-circle {  
+  background-color: white;  
+  border: 3px solid rgb(216, 101, 13);  
+  border-radius: 50%;  
+  width: 30px;  
+  height: 30px;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  margin: auto;  
+}  
+
+.purple-circle .outer-circle {  
+border-color: #d27bc8; 
+}
