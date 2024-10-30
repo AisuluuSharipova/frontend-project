@@ -1,0 +1,25 @@
+.container {  
+  background-color: white;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+  width: 320px;  
+  padding: 20px;  
+}  
+
+.header {  
+  display: flex;  
+  justify-content: space-between;  
+  margin-bottom: 20px;  
+}  
+
+.left-header, .right-header {
+  font-size: 16px;
+  color: gray;
+}  
+
+.calendar {  
+  width: 100%;  
+  border-collapse: collapse;  
+  border-top: 1px solid #ccc;  
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;  
+}  
