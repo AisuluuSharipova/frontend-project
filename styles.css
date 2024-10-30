@@ -101,3 +101,19 @@ border-color: #d27bc8;
   border: 1px solid #d27bc8;
   color: white !important;
 }  
+
+.inactive {  
+  color: #ccc !important;  
+}  
+
+.footer {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  margin-top: 20px;  
+}  
+
+.footer span {  
+  flex: 1;  
+  text-align: center;  
+}  
