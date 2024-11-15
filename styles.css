@@ -1,5 +1,5 @@
 body {  
-  background-color: #81beea;  
+  background-color: #78accd;  
   font-family: 'Roboto', sans-serif;  
   display: flex;  
   justify-content: center;  
@@ -23,7 +23,7 @@ body {
 
 .left-header, .right-header {
   font-size: 16px;
-  color: gray;
+  color: #7d8b9a;
 }  
 
 .calendar {  
@@ -42,8 +42,9 @@ body {
 }  
 
 .calendar th {  
-  color: #888;  
-  font-weight: 500;  
+  color: #7d8b9a;  
+  font-weight: 650; 
+  font-size: 12px; 
 }  
 
 .calendar td {  
@@ -51,11 +52,17 @@ body {
 }  
 
 .today {  
-  background-color: rgb(216, 101, 13);  
-  border-radius: 50%;  
+  background-color: #de6e46;
+  border-radius: 50% !important;
   color: white !important;
   width: 30px !important;
   height: 30px !important;
+  margin-top: 5px !important;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  margin: auto;
+  font-size: 14px;
 }  
 
 .highlight {  
@@ -75,38 +82,38 @@ body {
 }  
 
 .purple-circle .outer-circle {  
-border-color: #d27bc8; 
+border-color: #ae5989; 
 }
 
 .inner-circle {  
   background-color: rgb(216, 101, 13);  
   color: black;  
   border-radius: 50%;  
-  width: 20px;  
-  height: 20px;  
+  width: 15px;  
+  height: px;  
   display: flex;  
   justify-content: center;  
   align-items: center;  
   position: absolute;  
-  top: -5px;  
-  right: -5px;  
+  top: -1px;  
+  right: -1px;  
   font-size: 12px;  
   border: 1px solid rgb(216, 101, 13);
   color: white !important;
 
 }  
 .inner-circle-purple {  
-  background-color: #d27bc8;  
+  background-color: #ae5989;  
   color: black;  
   border-radius: 50%;  
-  width: 20px;  
-  height: 20px;  
+  width: 15px;  
+  height: 15px;  
   display: flex;  
   justify-content: center;  
   align-items: center;  
   position: absolute;  
-  top: -5px;  
-  right: -5px;  
+  top: -1px;  
+  right: -1px;  
   font-size: 12px;  
   border: 1px solid #d27bc8;
   color: white !important;
